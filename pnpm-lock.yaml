@@ -1,11 +1,62 @@
 dependencies:
+  '@babel/core': 7.9.0
+  '@svgr/webpack': 4.3.3
   '@testing-library/jest-dom': 4.2.4
   '@testing-library/react': 9.5.0_react-dom@16.13.1+react@16.13.1
   '@testing-library/user-event': 7.2.1
+  '@typescript-eslint/eslint-plugin': 2.34.0_984cbb313f9ea271f36cadd8f9814e06
+  '@typescript-eslint/parser': 2.34.0_eslint@6.8.0
+  babel-eslint: 10.1.0_eslint@6.8.0
+  babel-jest: 24.9.0_@babel+core@7.9.0
+  babel-loader: 8.1.0_@babel+core@7.9.0+webpack@4.42.0
+  babel-plugin-named-asset-import: 0.3.6_@babel+core@7.9.0
+  babel-preset-react-app: 9.1.2
+  camelcase: 5.3.1
+  case-sensitive-paths-webpack-plugin: 2.3.0
+  css-loader: 3.4.2_webpack@4.42.0
+  dotenv: 8.2.0
+  dotenv-expand: 5.1.0
+  eslint: 6.8.0
+  eslint-config-react-app: 5.2.1_f8f91f27f800428497667fb337aaf85d
+  eslint-loader: 3.0.3_eslint@6.8.0+webpack@4.42.0
+  eslint-plugin-flowtype: 4.6.0_eslint@6.8.0
+  eslint-plugin-import: 2.20.1_eslint@6.8.0
+  eslint-plugin-jsx-a11y: 6.2.3_eslint@6.8.0
+  eslint-plugin-react: 7.19.0_eslint@6.8.0
+  eslint-plugin-react-hooks: 1.7.0_eslint@6.8.0
+  file-loader: 4.3.0_webpack@4.42.0
+  fs-extra: 8.1.0
+  html-webpack-plugin: 4.0.0-beta.11_webpack@4.42.0
+  identity-obj-proxy: 3.0.0
+  jest: 24.9.0
+  jest-environment-jsdom-fourteen: 1.0.1
+  jest-resolve: 24.9.0_jest-resolve@24.9.0
+  jest-watch-typeahead: 0.4.2
+  mini-css-extract-plugin: 0.9.0_webpack@4.42.0
+  optimize-css-assets-webpack-plugin: 5.0.3_webpack@4.42.0
+  pnp-webpack-plugin: 1.6.4
+  postcss-flexbugs-fixes: 4.1.0
+  postcss-loader: 3.0.0
+  postcss-normalize: 8.0.1
+  postcss-preset-env: 6.7.0
+  postcss-safe-parser: 4.0.1
   react: 16.13.1
+  react-app-polyfill: 1.0.6
+  react-dev-utils: 10.2.1
   react-dom: 16.13.1_react@16.13.1
-  react-scripts: 3.4.1
-  react-swipeable: 5.5.1_react@16.13.1
+  resolve: 1.15.0
+  resolve-url-loader: 3.1.1
+  sass-loader: 8.0.2_webpack@4.42.0
+  semver: 6.3.0
+  style-loader: 0.23.1
+  terser-webpack-plugin: 2.3.5_webpack@4.42.0
+  ts-pnp: 1.1.6
+  url-loader: 2.3.0_file-loader@4.3.0+webpack@4.42.0
+  use-interval: github.com/soundstep/use-interval/60bb6a12582469dd2a3d2fcceb76c741e8a7234f_react@16.13.1
+  webpack: 4.42.0_webpack@4.42.0
+  webpack-dev-server: 3.10.3_webpack@4.42.0
+  webpack-manifest-plugin: 2.2.0_webpack@4.42.0
+  workbox-webpack-plugin: 4.3.1_webpack@4.42.0
 lockfileVersion: 5.1
 packages:
   /@babel/code-frame/7.10.4:
@@ -3038,7 +3089,7 @@ packages:
     engines:
       node: '>= 8.10.0'
     optionalDependencies:
-      fsevents: 2.1.2
+      fsevents: 2.1.3
     resolution:
       integrity: sha1-6QW97PEOqgoLHbDGZEgcxMvCK6E=
   /chownr/1.1.4:
@@ -5049,7 +5100,7 @@ packages:
     requiresBuild: true
     resolution:
       integrity: sha1-8yXLBFVZJCi88Rs4M3DvcOO/zDg=
-  /fsevents/2.1.2:
+  /fsevents/2.1.3:
     dev: false
     engines:
       node: ^8.16.0 || ^10.6.0 || >=11.0.0
@@ -5057,7 +5108,7 @@ packages:
     os:
       - darwin
     resolution:
-      integrity: sha1-TAofs0vGjlQ7S4Kp7Dkr+9qECAU=
+      integrity: sha1-+3OHA66NL5/pAMM4Nt3r7ouX8j4=
   /function-bind/1.1.1:
     dev: false
     resolution:
@@ -9142,82 +9193,6 @@ packages:
     dev: false
     resolution:
       integrity: sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
-  /react-scripts/3.4.1:
-    dependencies:
-      '@babel/core': 7.9.0
-      '@svgr/webpack': 4.3.3
-      '@typescript-eslint/eslint-plugin': 2.34.0_984cbb313f9ea271f36cadd8f9814e06
-      '@typescript-eslint/parser': 2.34.0_eslint@6.8.0
-      babel-eslint: 10.1.0_eslint@6.8.0
-      babel-jest: 24.9.0_@babel+core@7.9.0
-      babel-loader: 8.1.0_@babel+core@7.9.0+webpack@4.42.0
-      babel-plugin-named-asset-import: 0.3.6_@babel+core@7.9.0
-      babel-preset-react-app: 9.1.2
-      camelcase: 5.3.1
-      case-sensitive-paths-webpack-plugin: 2.3.0
-      css-loader: 3.4.2_webpack@4.42.0
-      dotenv: 8.2.0
-      dotenv-expand: 5.1.0
-      eslint: 6.8.0
-      eslint-config-react-app: 5.2.1_f8f91f27f800428497667fb337aaf85d
-      eslint-loader: 3.0.3_eslint@6.8.0+webpack@4.42.0
-      eslint-plugin-flowtype: 4.6.0_eslint@6.8.0
-      eslint-plugin-import: 2.20.1_eslint@6.8.0
-      eslint-plugin-jsx-a11y: 6.2.3_eslint@6.8.0
-      eslint-plugin-react: 7.19.0_eslint@6.8.0
-      eslint-plugin-react-hooks: 1.7.0_eslint@6.8.0
-      file-loader: 4.3.0_webpack@4.42.0
-      fs-extra: 8.1.0
-      html-webpack-plugin: 4.0.0-beta.11_webpack@4.42.0
-      identity-obj-proxy: 3.0.0
-      jest: 24.9.0
-      jest-environment-jsdom-fourteen: 1.0.1
-      jest-resolve: 24.9.0_jest-resolve@24.9.0
-      jest-watch-typeahead: 0.4.2
-      mini-css-extract-plugin: 0.9.0_webpack@4.42.0
-      optimize-css-assets-webpack-plugin: 5.0.3_webpack@4.42.0
-      pnp-webpack-plugin: 1.6.4
-      postcss-flexbugs-fixes: 4.1.0
-      postcss-loader: 3.0.0
-      postcss-normalize: 8.0.1
-      postcss-preset-env: 6.7.0
-      postcss-safe-parser: 4.0.1
-      react-app-polyfill: 1.0.6
-      react-dev-utils: 10.2.1
-      resolve: 1.15.0
-      resolve-url-loader: 3.1.1
-      sass-loader: 8.0.2_webpack@4.42.0
-      semver: 6.3.0
-      style-loader: 0.23.1
-      terser-webpack-plugin: 2.3.5_webpack@4.42.0
-      ts-pnp: 1.1.6
-      url-loader: 2.3.0_file-loader@4.3.0+webpack@4.42.0
-      webpack: 4.42.0_webpack@4.42.0
-      webpack-dev-server: 3.10.3_webpack@4.42.0
-      webpack-manifest-plugin: 2.2.0_webpack@4.42.0
-      workbox-webpack-plugin: 4.3.1_webpack@4.42.0
-    dev: false
-    engines:
-      node: '>=8.10'
-    hasBin: true
-    optionalDependencies:
-      fsevents: 2.1.2
-    peerDependencies:
-      typescript: ^3.2.1
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-    resolution:
-      integrity: sha1-9VEpi1xxmFzEkbms88jowK462go=
-  /react-swipeable/5.5.1_react@16.13.1:
-    dependencies:
-      prop-types: 15.7.2
-      react: 16.13.1
-    dev: false
-    peerDependencies:
-      react: ^16.0.0-0
-    resolution:
-      integrity: sha1-SK5hgt6vYvIdS4dGm2AoHb18SnY=
   /react/16.13.1:
     dependencies:
       loose-envify: 1.4.0
@@ -11506,11 +11481,73 @@ packages:
     dev: false
     resolution:
       integrity: sha1-rX/+/sGqWVZayRX4Lcyzipwxot0=
+  github.com/soundstep/use-interval/60bb6a12582469dd2a3d2fcceb76c741e8a7234f_react@16.13.1:
+    dependencies:
+      react: 16.13.1
+    dev: false
+    id: github.com/soundstep/use-interval/60bb6a12582469dd2a3d2fcceb76c741e8a7234f
+    name: use-interval
+    peerDependencies:
+      react: '>=16.12.0'
+    resolution:
+      tarball: 'https://codeload.github.com/soundstep/use-interval/tar.gz/60bb6a12582469dd2a3d2fcceb76c741e8a7234f'
+    version: 1.0.0
 specifiers:
+  '@babel/core': 7.9.0
+  '@svgr/webpack': 4.3.3
   '@testing-library/jest-dom': ^4.2.4
   '@testing-library/react': ^9.5.0
   '@testing-library/user-event': ^7.2.1
+  '@typescript-eslint/eslint-plugin': ^2.10.0
+  '@typescript-eslint/parser': ^2.10.0
+  babel-eslint: 10.1.0
+  babel-jest: ^24.9.0
+  babel-loader: 8.1.0
+  babel-plugin-named-asset-import: ^0.3.6
+  babel-preset-react-app: ^9.1.2
+  camelcase: ^5.3.1
+  case-sensitive-paths-webpack-plugin: 2.3.0
+  css-loader: 3.4.2
+  dotenv: 8.2.0
+  dotenv-expand: 5.1.0
+  eslint: ^6.6.0
+  eslint-config-react-app: ^5.2.1
+  eslint-loader: 3.0.3
+  eslint-plugin-flowtype: 4.6.0
+  eslint-plugin-import: 2.20.1
+  eslint-plugin-jsx-a11y: 6.2.3
+  eslint-plugin-react: 7.19.0
+  eslint-plugin-react-hooks: ^1.6.1
+  file-loader: 4.3.0
+  fs-extra: ^8.1.0
+  html-webpack-plugin: 4.0.0-beta.11
+  identity-obj-proxy: 3.0.0
+  jest: 24.9.0
+  jest-environment-jsdom-fourteen: 1.0.1
+  jest-resolve: 24.9.0
+  jest-watch-typeahead: 0.4.2
+  mini-css-extract-plugin: 0.9.0
+  optimize-css-assets-webpack-plugin: 5.0.3
+  pnp-webpack-plugin: 1.6.4
+  postcss-flexbugs-fixes: 4.1.0
+  postcss-loader: 3.0.0
+  postcss-normalize: 8.0.1
+  postcss-preset-env: 6.7.0
+  postcss-safe-parser: 4.0.1
   react: ^16.13.1
+  react-app-polyfill: ^1.0.6
+  react-dev-utils: ^10.2.1
   react-dom: ^16.13.1
-  react-scripts: 3.4.1
-  react-swipeable: ^5.5.1
+  resolve: 1.15.0
+  resolve-url-loader: 3.1.1
+  sass-loader: 8.0.2
+  semver: 6.3.0
+  style-loader: 0.23.1
+  terser-webpack-plugin: 2.3.5
+  ts-pnp: 1.1.6
+  url-loader: 2.3.0
+  use-interval: soundstep/use-interval#master
+  webpack: 4.42.0
+  webpack-dev-server: 3.10.3
+  webpack-manifest-plugin: 2.2.0
+  workbox-webpack-plugin: 4.3.1
