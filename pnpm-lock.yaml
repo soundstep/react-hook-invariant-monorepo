@@ -44,6 +44,7 @@ dependencies:
   react-app-polyfill: 1.0.6
   react-dev-utils: 10.2.1
   react-dom: 16.13.1_react@16.13.1
+  react-tracking: 7.3.0_react@16.13.1
   resolve: 1.15.0
   resolve-url-loader: 3.1.1
   sass-loader: 8.0.2_webpack@4.42.0
@@ -3850,6 +3851,12 @@ packages:
     dev: false
     resolution:
       integrity: sha1-s2nW+128E+7PUk+RsHD+7cNXzzQ=
+  /deepmerge/4.2.2:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-RNLqNnm49NT/ujPwPYZfwee/SVU=
   /default-gateway/4.2.0:
     dependencies:
       execa: 1.0.0
@@ -5388,6 +5395,12 @@ packages:
     dev: false
     resolution:
       integrity: sha1-0nRXAQJabHdabFRXk+1QL8DGSaE=
+  /hoist-non-react-statics/3.3.2:
+    dependencies:
+      react-is: 16.13.1
+    dev: false
+    resolution:
+      integrity: sha1-7OCsr3HWLClpwuxZ/v9CpLGoW0U=
   /hosted-git-info/2.8.8:
     dev: false
     resolution:
@@ -9193,6 +9206,18 @@ packages:
     dev: false
     resolution:
       integrity: sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
+  /react-tracking/7.3.0_react@16.13.1:
+    dependencies:
+      core-js: 3.6.5
+      deepmerge: 4.2.2
+      hoist-non-react-statics: 3.3.2
+      react: 16.13.1
+    dev: false
+    peerDependencies:
+      prop-types: ^15.x
+      react: ^16.8
+    resolution:
+      integrity: sha1-f0vQWw4zPgYtVQRNH1jYtAniLBE=
   /react/16.13.1:
     dependencies:
       loose-envify: 1.4.0
@@ -11490,6 +11515,7 @@ packages:
     peerDependencies:
       react: '>=16.12.0'
     resolution:
+      registry: 'https://itvrepos.jfrog.io/itvrepos/api/npm/npm-itv/'
       tarball: 'https://codeload.github.com/soundstep/use-interval/tar.gz/60bb6a12582469dd2a3d2fcceb76c741e8a7234f'
     version: 1.0.0
 specifiers:
@@ -11538,6 +11564,7 @@ specifiers:
   react-app-polyfill: ^1.0.6
   react-dev-utils: ^10.2.1
   react-dom: ^16.13.1
+  react-tracking: ^7.3.0
   resolve: 1.15.0
   resolve-url-loader: 3.1.1
   sass-loader: 8.0.2
