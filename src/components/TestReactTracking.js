@@ -9,7 +9,7 @@ const TestReactTracking = () => {
             tracking.trackEvent({ action: 'click' });
         }}
       >
-        Click Me
+        Track me (console.log)
     </button>
     );
 };
